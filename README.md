@@ -412,3 +412,4 @@ For issues or feature requests, refer to the project documentation or check your
 
 **Version**: 1.0 (with legacy v2.1 and v3 available)  
 **Last Updated**: 2026-09-14  
+
