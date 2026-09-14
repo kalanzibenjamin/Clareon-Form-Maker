@@ -118,7 +118,7 @@ Full-featured learning management system with intelligent routing, AI assistance
 ---
 
 ### **v3 (Legacy/Advanced)**
-See `form-maker(legacy)/smart-study-v3.gs` for the latest advanced version
+See `legacy/smart-study-v3.gs` for the latest advanced version
 
 ---
 
@@ -138,8 +138,8 @@ See `form-maker(legacy)/smart-study-v3.gs` for the latest advanced version
 2. **Add the Script**
    - Click **Extensions** → **Apps Script**
    - Copy the contents of the appropriate `.gs` file:
-     - For simple use: Use `smart-study-v1.gs`
-     - For advanced features: Use `smart-study-v2.1.gs` from `form-maker(legacy)/`
+       - For simple use: Use `v1/smart-study-v1.gs`
+       - For advanced features: Use `legacy/smart-study-v2.1.gs`
    - Paste into the script editor
 
 3. **Set Template ID (Optional)**
@@ -162,29 +162,37 @@ See `form-maker(legacy)/smart-study-v3.gs` for the latest advanced version
 
 ```
 Clareon-Form-Maker/
-├── README.md                              # This file
-├── smart-study-v1.gs                      # Simplified version (current)
-└── form-maker(legacy)/
-    ├── smart-study-v2.1.gs               # Enhanced version with AI & user tracking
-    └── smart-study-v3.gs                 # Advanced version (latest)
+├── README.md                              # Project overview and usage guide
+├── .gitignore                              # Local files and secrets to exclude
+├── v1/
+│   └── smart-study-v1.gs                  # Simplified version (current)
+├── legacy/
+│   ├── smart-study-v2.1.gs                # Enhanced version with AI and tracking
+│   └── smart-study-v3.gs                  # Advanced legacy version
+├── docs/
+│   ├── setup.md                            # Detailed setup instructions
+│   ├── sheet-format.md                     # Question sheet reference
+│   └── troubleshooting.md                  # Common problems and fixes
+└── examples/
+   └── questions-template.csv              # Starter question data
 ```
 
 ### File Descriptions
 
-**smart-study-v1.gs** (~500 lines)
+**v1/smart-study-v1.gs** (~500 lines)
 - Lightweight, focused implementation
 - Core form generation logic
 - Session management
 - Error handling
 
-**smart-study-v2.1.gs** (~2000+ lines)
+**legacy/smart-study-v2.1.gs** (~13,000 lines)
 - Extended functionality with multiple modes
 - User management system
 - Analytics and reporting
 - OpenAI integration
 - Advanced Drive folder management
 
-**smart-study-v3.gs**
+**legacy/smart-study-v3.gs** (~14,000 lines)
 - Latest improvements and features
 - Enhanced stability
 - Additional optimizations
@@ -412,4 +420,5 @@ For issues or feature requests, refer to the project documentation or check your
 
 **Version**: 1.0 (with legacy v2.1 and v3 available)  
 **Last Updated**: 2026-09-14  
+**License**: [MIT](LICENSE)  
 

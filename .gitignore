@@ -1,0 +1,17 @@
+# Google Apps Script / clasp local files
+.clasp.json
+.claspignore
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
